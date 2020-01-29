@@ -280,6 +280,16 @@ p.last {
 
 /* 500px */
 @media (max-width: 500px){
+	.heading {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.nav-flex {
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.innovation-container img {
 		display: none;
 	}
