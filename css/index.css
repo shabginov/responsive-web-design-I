@@ -278,5 +278,12 @@ p.last {
 	text-align: center;
 }
 
+/* 500px */
+@media (max-width: 500px){
+	.innovation-container img {
+		display: none;
+	}
+}
+
 
 
